@@ -1,0 +1,95 @@
+/* 
+    Document   : style
+    Created on : 2011-07-23, 14:57:07
+    Author     : artur
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+}
+
+table {
+    vertical-align: top
+}
+td {
+    vertical-align: top
+}
+
+h1,h2,h3 {
+    width: 100%;
+    background-color: #f0f0ff;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-bottom-color: darkslategrey
+}
+
+div.main-menu {
+    background: black;
+    width: 100%;
+
+}
+.main-menu table {   
+    /* background-color: black;*/
+    padding: 2px;   
+
+}
+
+.main-menu a:link, .main-menu a:visited{
+    color: #f0f0f0;
+    font-weight: bold;
+    font-family: Verdata;
+    font-size: 15px;
+    text-decoration: none
+}
+
+.main-menu a:hover{
+    color: #ffffff;
+    font-weight: bold;
+    font-family: Verdata;
+    font-size: 15px;
+    text-decoration: underline
+}
+
+.main-menu tr{
+    background-color: black
+}
+
+.main-menu td{
+    background-color: black;
+    padding-left: 10px;
+}
+
+table.games-registry  {
+    width: 100%
+}
+
+.games-registry thead {
+    background-color: darkslategray;
+    color: bisque
+}
+
+.games-registry tr.d0 {
+    background-color: gainsboro
+}
+
+.games-registry tr.d1 {
+    background-color: #f0f0f0
+}
+
+div.warranty{
+    font-size: 9px; 
+}
+
+.warranty h3 {
+    background-color: white
+}
